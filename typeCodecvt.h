@@ -10,6 +10,7 @@ namespace 黃月蘭的動態庫{
 	public:
 		static 文字轉換器& 獲得文字轉換器();
 		std::wstring 字元陣列轉寬字串(const char* 輸入字元陣列);
+		char* 寬字串轉字元陣列(std::wstring 輸入寬字串);
 		
 	private:
 		文字轉換器() = default;
